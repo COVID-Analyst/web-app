@@ -39,7 +39,6 @@ export default class Info extends Component {
 					chat-title="Virtual Assistant"
 					agent-id="e1378f24-0025-4da3-b871-60936d0bfa05"
 					language-code="en"
-					chat-icon="https://drive.google.com/file/d/1UuzcBlhqetfgVi7RbIeNqs88pk8T9U-9/view"
 				></df-messenger>
 				<Link
 					to={{
