@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	height: 100%;
 	overflow-x: hidden;
-	background: #fff;
+	background: #fff !important;
 }
 
 .logo {
@@ -66,12 +66,12 @@ body {
 
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
+	font-weight: 300;
+	font-size: 17px;
 	line-height: 25px;
 	/* identical to box height, or 139% */
 
-	letter-spacing: -0.514286px;
+	letter-spacing: -0.214286px;
 
 	color: #4f4f4f;
 }
@@ -130,4 +130,25 @@ body {
 	position: absolute;
 	top: 0;
 	right: 100px;
+}
+
+.apm {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	width: 200px;
+}
+.apmp {
+	position: absolute;
+	bottom: 110px;
+	right: 205px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.gcp {
+	position: absolute;
+	bottom: 46px;
+	right: 255px;
+	width: 180px;
 }

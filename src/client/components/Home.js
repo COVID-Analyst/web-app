@@ -8,7 +8,8 @@ import leftcovid from '../images/leftcovid.png';
 import rightcovid from '../images/rightcovid.png';
 import topsvg from '../images/topsvg.png';
 import rightsvg from '../images/rightsvg.png';
-
+import apm from '../images/apm.png';
+import gcp from '../images/gcp.png';
 import { Link } from 'react-router-dom';
 import Script from 'react-load-script';
 
@@ -72,6 +73,9 @@ export default class Home extends Component {
 				<img src={logo} className="logo" />
 				<img src={topsvg} className="topsvg" />
 				<img src={rightsvg} className="rightsvg" />
+				<p className="apmp">Powered by</p>
+				<img src={apm} className="apm" />
+				<img src={gcp} className="gcp" />
 
 				{/* {/* <img src={leftcovid} className="leftcovid" /> */}
 				{/* {/* <img src={rightcovid} className="rightcovid" /> */}
@@ -80,9 +84,10 @@ export default class Home extends Component {
 				{/* <p className="subhead">Powerful, targeted COVID-19 analytics for your region</p> */}
 				<div className="dark">
 					<p className="searchDescription">
-						COVID Analyst uses machine learning, research publication statistics, and a combination of
-						reliable data sources to give you an address-level risk heatmap of COVID-19 in your area, and
-						curates relevant regional news from credible outlets.
+						COVID Analyst uses machine learning and statistical analysis with a combination of reliable data
+						sources and research publications to give you an address-level risk heatmap of COVID-19 in your
+						area, and curates relevant regional news from credible outlets. If you have any questions, ask
+						our chat AI!
 					</p>
 
 					<input
@@ -90,7 +95,6 @@ export default class Home extends Component {
 						className="searchBar"
 						placeholder="Berkeley, California, USA"
 						value={this.state.query}
-						onChange={() => this.setState({ query: event.target.value })}
 					></input>
 					<div className="searchButton">
 						<Link
